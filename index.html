@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar membuat tabel form</title>
+</head>
+<body>
+    <table border="1">
+        <caption align="top"><b>DAFTAR PROTEIN MAKANAN PER 100G</b></caption>
+        <tr>
+            <th>No</th><th>Makanan</th><th>Nilai proteinnya</th><th>Gambar</th>
+        </tr>
+        <tr>
+            <th>1.</th><th>Telur</th><th>7 gram</th><th><img src="Telur.png" width="80"></th>
+        </tr>
+        <tr>
+            <th>2.</th><th>Dada ayam</th><th>31 gram</th><th><img src="63e6b83ca16a4b635402e705_Supplier-daging-ayam-sapi-potong-jakarta-indonesia-produk-Dada-Polos.jpg" width="80"></th>
+        </tr>
+        <tr>
+            <th>3.</th><th>Tempe</th><th>19 gram</th><th><img src="image.png" width="80"></th>
+        </tr>
+    </table>
+    <hr>
+    <form action="/submit-form" method="post">
+        <h2>Form Pendaftaran</h2>
+        <div>
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+        <div>
+            <label for="password">Kata Sandi:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <br>
+        <button type="submit">Daftar</button>
+    </form>
+    <hr>
+    <h1>Frame</h1>
+    <p>Di bawah ini merupakan iframe dari youtube</p>
+    <iframe src="https://www.youtube.com" width="600" height="400" style="border:1px solid black;"></iframe>
+</body>
+</html>
